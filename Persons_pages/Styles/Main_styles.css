@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+/* font-family: 'Oswald', sans-serif; */
+
+body {
+	background-image: url(../Images/BG.png);
+}
+.Wrapper{
+	margin: 30px 10px;
+}
+.Wrapper .Image{
+	padding-top: 50px;
+	width: 400px;
+	height: 500px;
+	float: right;
+}
+.Wrapper .Image img{
+	border-radius: 40%;
+}
+
+.Text {
+	color: #fff;
+	font-family: 'Oswald', sans-serif;
+}

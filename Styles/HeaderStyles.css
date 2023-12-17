@@ -1,0 +1,25 @@
+html {
+	
+}
+
+
+
+.Wrapper {
+	box-sizing: border-box;
+	transform-style: inherit;
+	width: 100vw;
+}
+
+
+
+.Characters_images img {
+	width: 100%;
+	margin: 0 auto;
+	background-image: url(../Images/Header/background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+
+}
+
+

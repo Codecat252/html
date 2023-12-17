@@ -1,0 +1,38 @@
+.Characteristic_Block {
+	width: 100%;
+	margin: 0 auto;
+	color: #fff;
+	background-color: #000;
+	font-size: 28px;
+}
+
+.Person_Characteristic {
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+.Person_Characteristic img {
+	display: flex;
+	justify-content: space-around;
+	border-radius: 5%;
+	width: 20%;
+	height: auto;
+	float: right;
+	margin-left: 3%;
+}
+
+.Person_Characteristic.image_left img {
+	margin-right: 3%;
+}
+
+.Person_Characteristic.image_right img {
+	margin-left: 3%;
+}
+
+p {
+    text-indent: 3%;
+}
+
+

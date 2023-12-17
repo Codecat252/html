@@ -1,0 +1,81 @@
+
+/*/////////////////////////					Main Styles                   				//////////////////////*/
+/*/////////////////////////					Content Block                   				//////////////////////*/
+.MainBlock {
+	box-sizing: border-box;
+	margin: 0 auto;
+	width: 100%;
+	border-radius: 10px;
+}
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////			Navigation Text         /////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.MainBlock .navigation_block .navigation_block_characters {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: Verdana;
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	font-size: 100px;
+	font-weight: bold;
+}
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////			Navigation Block         /////////////////////////////////////////*/
+/*////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.MainBlock .navigation_block {
+	margin-top: -10px;
+	width: 98%;
+	border: 0px solid #000;
+	color: black;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.MainBlock .navigation_block .nav_block {
+	width: 33%;
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	text-align: center;
+	font-size: 45px;
+	overflow: hidden;
+
+}
+
+.MainBlock .navigation_block .nav_block h2 {
+	width: 100%;
+	font-family: 'Arial Black';
+}
+.MainBlock .navigation_block .nav_block a{
+	border-radius: 20%;
+}
+.MainBlock .navigation_block .nav_block img {
+	width: 270px;
+	height: 320px;
+	border: 2px solid #000;
+	overflow: hidden;
+	transition: 0.2s;
+	z-index: 1;
+}
+
+.MainBlock .navigation_block .nav_block img:hover {
+	transition: 0.3s;
+	width: 290px;
+	height: 340px;
+	border: 5px solid #fff;
+	box-shadow: 20px 10px 10px rgba(0,0,0,0.4);
+	z-index: 2;
+}
+
+
+
+
+
+
+
+
